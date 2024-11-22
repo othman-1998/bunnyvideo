@@ -55,31 +55,6 @@ async function initShakaPlayer() {
         console.error(`${formatTimestamp()} - Fejl ved indlæsning af video:`, error);
     }
 
-    // Andet video element
-    // const video2 = document.getElementById('video2');
-    // const player2 = new shaka.Player(video2);
-
-    // player2.addEventListener('error', (event) => {
-    //     console.error(`${formatTimestamp()} - Shaka Player Error:`, event.detail);
-    // });
-
-    // try {
-    //     const videoUrl2 = 'https://vz-33a349bd-10a.b-cdn.net/39bc78fe-b6ec-4986-9707-89b253dd54fd/playlist.m3u8';
-    //     console.log(`${formatTimestamp()} - Starter indlæsning af video2...`);
-    //     await player2.load(videoUrl2);
-    //     console.log(`${formatTimestamp()} - Video2 er indlæst og klar!`);
-    // } catch (error) {
-    //     console.error(`${formatTimestamp()} - Fejl ved indlæsning af video2:`, error);
-    // }
 }
 
 document.addEventListener('DOMContentLoaded', initShakaPlayer);
-
-
-// se om vi kan lave en demo med html5 video og på den måde sammenligne det 
-// se om vi kan load videoen med dt samme
-
-
-// få tog videoen til at fylde 3mb 
-// skab bunny projekt og et alm html video projekt og se hastigheden 
-// kig network og se om jeg kan få den til at vise en video så hurtigt muligt 
