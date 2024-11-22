@@ -14,7 +14,7 @@ console.log(`Video 1 varighed: ${video.duration} sekunder`);
 });
 
 try {
-const videoUrl = 'https://vz-17fca31c-e5c.b-cdn.net/0fc7d582-746d-45ae-8fed-0415ce108ccb/playlist.m3u8';
+const videoUrl = 'https://vz-17fca31c-e5c.b-cdn.net/8a954696-1f72-4f3f-8c43-28187d42af1e/playlist.m3u8';
 
 const startTime = Date.now();
 console.log(`${formatTimestamp()} - Starter indlæsning af video...`);
